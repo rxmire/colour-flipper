@@ -1,0 +1,35 @@
+Microsoft Windows [Version 10.0.22631.6199]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\rmire>git clone https://github.com/cbfacademy/git-auth
+Cloning into 'git-auth'...
+remote: Repository not found.
+fatal: repository 'https://github.com/cbfacademy/git-auth/' not found
+
+C:\Users\rmire>git clone https://github.com/cbfacademy/git-auth
+Cloning into 'git-auth'...
+remote: Repository not found.
+fatal: repository 'https://github.com/cbfacademy/git-auth/' not found
+
+C:\Users\rmire>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+user.email=[rmire15@hotmail.com]
+user.name=[rxmire]
+init.defaultbranch=main
+
+C:\Users\rmire>mkdir %USERPROFILE%\cbfacademy
+A subdirectory or file C:\Users\rmire\cbfacademy already exists.
+
+C:\Users\rmire>
